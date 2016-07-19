@@ -1,0 +1,145 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr.js"></script>
+        <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
+    </head>
+
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!--Start header-->
+
+
+
+        <header id="site-header">
+          <div class="row">
+            <div class="large-12 columns">
+              Cheat Sheet Emmet
+          </div>
+        </div>
+        <div id="header-image">
+   <img width="1102" height="350" alt="" class="header-image" src="img/logo-large.png">
+
+        </header>
+
+        <!--End Header-->
+
+
+
+        <!--start div with CS element-->
+
+        <div class="wrapper">
+          <div class="row">
+          <div class="large-6 columns">
+            <h1>Enfant: ></h1>
+    <p>nav>ul>li :<br>
+&lt;nav&gt;<br>
+    &lt;ul&gt;<br>
+        &lt;li&gt;&lt;/li&gt;<br>
+    &lt;/ul&gt;<br>
+&lt;/nav&gt;</p>
+        </div>
+        <div class="large-6 columns">
+          <h1>Multiplication: *</h1>
+          <p>ul>li*5 :<br>
+            &lt;ul&gt;<br>
+            &lt;li&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;/li&gt;<br>
+            &lt;/ul&gt;</p>
+        </div>
+      </div>
+      <div class="row">
+      <div class="large-6 columns">
+        <h1>Texte: {}</h1>
+        <p>a{Click me}<br>
+&lt;a href=""&gt;Click me&lt;/a&gt;<br>
+p&gt;{Click }+a{here}+{ to continue}<br>
+&lt;p&gt;Click &lt;a href=""&gt;here&lt;/a&gt; to continue</p>
+    </div>
+    <div class="large-6 columns">
+      <h1>Groupement: ()</h1>
+      <p>div&gt;(header&gt;ul&gt;li*2&gt;a)+footer&gt;p<br>
+&lt;div&gt;<br>
+    &lt;header&gt;<br>
+        &lt;ul&gt;<br>
+            &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;<br>
+            &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;<br>
+        &lt;/ul&gt;<br>
+    &lt;/header&gt;<br>
+    &lt;footer<br>
+        &lt;p&gt;&lt;/p&gt;<br>
+    &lt;/footer&gt;<br>
+&lt;/div&gt;
+      </p>
+    </div>
+  </div>
+  <div class="row">
+  <div class="large-6 columns">
+    <h1>ID et CLASS</h1>
+    <p>#header<br>
+&lt;div id="header"&gt;&lt;/div&gt;<br><br>
+.title<br>
+&lt;div class="title"&gt;&lt;/div&gt;<br><br>
+form#search.wide<br>
+&lt;form id="search" class="wide"&gt;&lt;/form&gt;<br><br>
+p.class1.class2.class3<br>
+&lt;p class="class1 class2 class3"&gt;&lt;/p&gt;
+</div>
+<div class="large-6 columns">
+  <h1>Attributs Custom</h1>
+  <p>p[title="Hello world"]<br>
+&lt;p title="Hello world"&gt;</p><br><br>
+td[rowspan=2 colspan=3 title]<br>
+&lt;td rowspan="2" colspan="3" title=""&gt;&lt;/td&gt;<br><br>
+[a='value1' b="value2"]<br>
+&lt;div a="value1" b="value2"&gt;&lt;/div&gt;</p>
+</div>
+
+</div>
+
+<!--End cheat sheet element-->
+
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+        <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script> -->
+
+        <!-- script foundation -->
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script>
+          $(document).foundation();
+        </script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+
+    </body>
+
+</html>
